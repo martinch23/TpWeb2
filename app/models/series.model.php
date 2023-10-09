@@ -17,8 +17,6 @@ class SeriesModel
     {
         $query = $this->db->prepare('SELECT * FROM series');
         $query->execute();
-
-        // $tasks es un arreglo de tareas
         $series = $query->fetchAll(PDO::FETCH_OBJ);
 
         return $series;
