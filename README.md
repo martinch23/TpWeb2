@@ -3,7 +3,7 @@ Integrantes:- Salvador, Guido Gabriel. email: guidsalv@gmail.com
 
 Temática: Página para ver series
 
-Descripción: Realizaremos una página para ver series, que ofrece diversos generos y tipos de series.
+Descripción: Realizaremos una página para ver series, que ofrece diversos géneros y tipos de series.
 
 
 
