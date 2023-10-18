@@ -1,0 +1,53 @@
+<?php require_once 'templates/header.phtml' ?>
+<div class="container mt-3">
+    <div class="row justify-content-between">
+        <div class="col-8">
+            <h3>Capítulos</h3>
+        </div>
+        <?php if ($isLogged) { ?>
+            <div class="col-3">
+                <a href="capitulos/agregar/" type="button" class='btn btn-primary ml-auto'>Nuevo capítulo</a>
+            </div>
+        <?php } ?>
+    </div>
+</div>
+<div class="container mt-3">
+    <table class=table>
+        <thead>
+            <tr>
+                <th scope=>Id</th>
+                <th scope=>Nombre</th>
+                <th scope=>Duración (min)</th>
+                <th scope=>Serie</th>
+                <th></th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+
+            <?php foreach ($capitulos as $capitulo) { ?>
+
+                <tr class="item item-serie">
+                    <th scope=><?= $capitulo->id_capitulo ?></th>
+                    <td><?= $capitulo->nombre ?></td>
+                    <td><?= $capitulo->duracion . " minutos" ?></td>
+                    <td><?= $capitulo->titulo ?></td>
+
+                    <?php
+                    if ($isLogged) { ?>
+                        <div>
+                            <td><a href="capitulos/editar/<?php echo $capitulo->id_capitulo ?>" type="button" class='btn btn-success ml-auto'>Editar</a></td>
+                            <td><a href="capitulos/eliminar/<?php echo $capitulo->id_capitulo ?>" type="button" class='btn btn-danger ml-auto'>Borrar</a></td>
+                        </div>
+                    <?php } ?>
+
+
+                </tr>
+            <?php } ?>
+
+        </tbody>
+
+    </table>
+</div>
+
+<?php include_once 'templates/footer.phtml' ?>
