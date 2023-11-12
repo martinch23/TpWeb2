@@ -1,6 +1,6 @@
 Integrantes:- Salvador, Guido Gabriel. email: guidsalv@gmail.com  (aclaración: dejó la materia antes de la última 
               entrega de tp, por lo que esta última fue realizada solo por el segundo integrante).
-            - Christensen, Martín. email: martin.christensen93@gmail.com.
+             - Christensen, Martín. email: martin.christensen93@gmail.com.
 
 Temática: Página para ver series
 
