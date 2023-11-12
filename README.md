@@ -8,6 +8,6 @@ Descripción: Realizaremos una página para ver series, que ofrece diversos gene
 
 
 DIAGRAMA ENTIDAD RELACION:
-![image](https://github.com/martinch23/TpWeb2/assets/106201096/88e120e1-0da6-4b63-9ce3-a336c1914ae6)
+![image](https://github.com/martinch23/TpWeb2/assets/106201096/4ae04e34-9ba1-44c0-9320-8a28c7aafbc7)
 
 
